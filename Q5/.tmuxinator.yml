@@ -1,0 +1,11 @@
+name: test2
+root: ~/
+
+windows:
+  - exercise:
+      layout: even-horizontal
+      panes:
+        - p1: ping 8.8.8.8
+        - p2: watch -n 2 -d nvidia-smi
+
+
