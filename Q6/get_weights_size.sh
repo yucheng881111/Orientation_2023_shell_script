@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "======================================="
-echo "file name    size(KB)    size(MB)"
+echo "file name    size(Bytes)    size(MB)"
 echo "======================================="
 
 ls -al files | awk 'BEGIN { size=0 } 
